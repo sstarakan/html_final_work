@@ -187,14 +187,13 @@
         margin-top: 98px;
     }
     .block2__main{
-        width: 100%;
-        position: static;
+        position: relative;
         overflow: hidden;
         flex-direction: row;
         column-gap: 10px;
         justify-content: center;
         align-self: end;
-
+        z-index: 0;
     }
     .block2__main>img:nth-child(1){
         display: none;
@@ -205,8 +204,6 @@
     .block2__main_item{
         width: 250px;
         height: 126px;
-    }
-    .block2__main_item{
     }
     .block2__main_item h4{
         font-size: 16px;
@@ -235,6 +232,7 @@
         display: flex;
         position: absolute;
         top:600px;
+        z-index: 1;
     }
 
     .block3__buttons{
